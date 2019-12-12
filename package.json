@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-remove-flow-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A laravel-mix wrapper to strip flow types before processing js files",
   "scripts": {
     "prettier": "./node_modules/.bin/prettier --single-quote --write index.js"

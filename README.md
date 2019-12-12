@@ -18,7 +18,7 @@ yarn add laravel-mix-remove-flow-types --dev
 ## Usage
 
 The loader is configured to match all `.js` and `.jsx` files, there is no need to specify files that contain
-flow type definitions. Just call the 
+flow type definitions. Just call the `removeFlowTypes` function somewhere in your `mix` chain.
 
 ```javascript
 const mix = require('laravel-mix');
